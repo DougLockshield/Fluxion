@@ -22,7 +22,7 @@ readonly FLUXIONNoiseFloor=-90
 readonly FLUXIONNoiseCeiling=-60
 
 readonly FLUXIONVersion=6
-readonly FLUXIONRevision=15
+readonly FLUXIONRevision=12
 
 # Declare window ration bigger = smaller windows
 FLUXIONWindowRatio=4
@@ -251,14 +251,14 @@ fluxion_startup() {
   echo # Do not remove.
 
   sleep 0.1
-  local -r fluxionRepository="hhttps://github.com/DougLockshield/Fluxion"
+  local -r fluxionRepository="https://github.com/FluxionNetwork/fluxion"
   format_center_literals "${CGrn}Site: ${CRed}$fluxionRepository$CClr"
   echo -e "$FormatCenterLiterals"
 
   sleep 0.1
   local -r versionInfo="${CSRed}FLUXION $FLUXIONVersion$CClr"
   local -r revisionInfo="(rev. $CSBlu$FLUXIONRevision$CClr)"
-  local -r credits="by$CCyn Douglas Lockshield$CClr"
+  local -r credits="by$CCyn FluxionNetwork$CClr"
   format_center_literals "$versionInfo $revisionInfo $credits"
   echo -e "$FormatCenterLiterals"
 
@@ -715,7 +715,7 @@ fluxion_header() {
   format_apply_autosize "[%*s]\n"
   local verticalBorder=$FormatApplyAutosize
 
-  format_apply_autosize "[%*s${CSRed}FLUXION $FLUXIONVersion${CSWht}.${CSBlu}$FLUXIONRevision$CSRed    <$CIRed L${CIYel}ockshield$CIRed I${CIYel}s$CIRed V${CIYel}ersion$CClr$CSYel >%*s$CSBlu]\n"
+  format_apply_autosize "[%*s${CSRed}FLUXION $FLUXIONVersion${CSWht}.${CSBlu}$FLUXIONRevision$CSRed    <$CIRed F${CIYel}luxion$CIRed I${CIYel}s$CIRed T${CIYel}he$CIRed F${CIYel}uture$CClr$CSYel >%*s$CSBlu]\n"
   local headerTextFormat="$FormatApplyAutosize"
 
   fluxion_conditional_clear
