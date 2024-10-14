@@ -1,19 +1,19 @@
-![Fuxion logo](https://github.com/FluxionNetwork/fluxion/raw/master/logos/logo.jpg)
+![Fuxion logo](https://github.com/DougLockshield/Fluxion/tree/main/Fluxion/logos)
 
 # Fluxion is the future of MITM WPA attacks
-Fluxion is a security auditing and social-engineering research tool. It is a remake of linset by vk496 with (hopefully) fewer bugs and more functionality. The script attempts to retrieve the WPA/WPA2 key from a target access point by means of a social engineering (phishing) attack. It's compatible with the latest release of Kali (rolling). Fluxion's attacks' setup is mostly manual, but experimental auto-mode handles some of the attacks' setup parameters. Read the [FAQ](https://github.com/FluxionNetwork/fluxion/wiki/FAQ) before requesting issues.
+Fluxion is a security auditing and social-engineering research tool. It is a remake of linset by vk496 with (hopefully) fewer bugs and more functionality. The script attempts to retrieve the WPA/WPA2 key from a target access point by means of a social engineering (phishing) attack. It's compatible with the latest release of Kali (rolling). Fluxion's attacks' setup is mostly manual, but experimental auto-mode handles some of the attacks' setup parameters. Read the [FAQ](https://github.com/DougLockshield/fluxion/wiki/FAQ) before requesting issues.
 
-If you need quick help, fluxion is also available on gitter. You can talk with us on [Gitter](https://gitter.im/FluxionNetwork/Lobby) or on [Discord](https://discord.gg/G43gptk).
+If you need quick help, fluxion is also available on gitter. You can talk with us on [Gitter](https://gitter.im/FluxionNetwork/Lobby).
 ## Installation
-Read [here](https://github.com/FluxionNetwork/fluxion/wiki/Generate-ssh-keys) before you do the following steps.
+Read [here](hhttps://github.com/DougLockshield/wiki/Generate-ssh-keys) before you do the following steps.
 <br>
 **Download the latest revision**
 ```
-git clone git@github.com:FluxionNetwork/fluxion.git
+git clone git@github.com/DougLockshield/fluxion.git
 
 # Or if you prefer https 
 
-git clone https://www.github.com/FluxionNetwork/fluxion.git
+git clone https://github.com/DougLockshield/fluxion.git
 ```
 **Switch to tool's directory**
 ```
@@ -30,7 +30,7 @@ cd bin/arch
 makepkg
 ```
 
-or using the blackarch repo
+or using the blackarch rep
 ```
 pacman -S fluxion
 ```
@@ -78,7 +78,7 @@ Now, every commit should be signed. You can verify the signator using `git-verif
 7. Ons Ali @wallpaper
 8. PappleTec @sites
 9. MPX4132 - Fluxion V3
-10. usama7628674 - contributor
+10. Lockshield - contributor
 
 ## Disclaimer
 * Authors do not own the logos under the `/attacks/Captive Portal/sites/` directory. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research.
@@ -96,5 +96,4 @@ Now, every commit should be signed. You can verify the signator using `git-verif
 
 ## Links
 **Fluxion website:** https://fluxionnetwork.github.io/fluxion/ <br>
-**Discord:** https://discordapp.com/invite/G43gptk <br>
-**Gitter:** https://gitter.im/FluxionNetwork/Lobby <br>
+**Youtube:** https://www.youtube.com/@DouglasLockshield <br>
